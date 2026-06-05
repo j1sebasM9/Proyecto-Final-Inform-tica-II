@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>769</width>
+    <height>825</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>0</y>
+      <width>800</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(&quot;C:/Users/sm713/Documents/videojuego_POO_sumo/spriters/mainofgame.png&quot;);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtNombreJ1">
+    <property name="geometry">
+     <rect>
+      <x>293</x>
+      <y>725</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color: black;
+border: 2px solid #333333;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtPersonajeJ1">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>753</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color: black;
+border: 2px solid #333333;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtNombreJ2">
+    <property name="geometry">
+     <rect>
+      <x>587</x>
+      <y>726</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color: black;
+border: 2px solid #333333;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtPersonajeJ2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>755</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color: black;
+border: 2px solid #333333;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnStart">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>630</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #ffcc00; /* Un color amarillo estilo Pokémon */
+color: black;
+border: 3px solid #cc9900;
+border-radius: 10px;
+font-size: 18px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Jugar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
